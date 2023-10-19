@@ -1,0 +1,68 @@
+/* Base styles for offer.css */
+.offer {
+    text-align: center;
+}
+
+.searchbox {
+    text-align: right;
+}
+
+.active-button {
+    background-color: green;
+    color: white;
+}
+
+.inactive-button {
+    background-color: red;
+    color: white;
+}
+
+.pagination-container {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Style for the search button on the left side */
+.search-button-left {
+    margin-top: 0px;
+    margin-right: 59%;
+}
+
+/* Adjust the search input's width for a smaller search bar */
+.form-inline .form-control {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* Adjust the position of the search button on the right side */
+.form-inline .btn-outline-success {
+    position: absolute;
+    right: 15px;
+}
+
+/* Media query for small screens (e.g., smartphones) */
+@media screen and (max-width: 768px) {
+    /* Center align the search button for small screens */
+    .search-button-left {
+        margin-right: auto;
+    }
+    
+    /* Adjust the search input's width for smaller screens */
+    .form-inline .form-control {
+        width: 100%; /* Full width */
+    }
+    
+    /* Remove the right-aligned search button position for smaller screens */
+    .form-inline .btn-outline-success {
+        position: static;
+        margin-top: 10px; /* Add some spacing below the search input */
+    }
+
+    /* Additional styles for iPhone 12 or similar devices */
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+        /* Add specific styles for iPhone 12 */
+        /* You can add your specific styles here */
+    }
+}
+
+  

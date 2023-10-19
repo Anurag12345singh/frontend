@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+  }
+  .Role {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid rgb(10, 10, 10);
+    }
+    
+    .btnrole {
+      margin-top: 10px;
+    }
+    
+    /* Styles for the table */
+  .table4 {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #070707;
+    }
+    
+    /* Styles for form labels */
+  .FormLabel h6 {
+      font-size: 16px;
+    } 
+    
+    /* Styles for input fields */
+  .Form.Control[type="text"] {
+      width: 100%;
+      padding: 100px;
+      margin-bottom: 10px;
+    }
+    
+    /* Styles for buttons */
+  .Button {
+      margin-top: 10px;
+    }
+    
+    /* Styles for the table */
+   table {
+      width: 100%;
+    }
+    
+  th, td { 
+      padding: 10px;
+      text-align: center;
+    }
+    
+  
+    th {
+      background-color: #e39898;
+    } 
+   
+    
+    tr:nth-child(even) {
+      background-color: #fbe0e0;
+    }
+    /* profile.css */
+/* Adjust the width of the form and table as needed */
+.Role {
+  width: 40%; /* Set the width of the form */
+}
+
+.table4 {
+  width: 60%; /* Set the width of the table */
+}
+/* profile.css */
+/* Add a CSS class to center the button */
+.centered-button {
+  text-align: center;
+}
